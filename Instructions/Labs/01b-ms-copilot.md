@@ -12,6 +12,8 @@ Stellen Sie sich Folgendes vor: Sie sind dabei, einen erstklassigen Reinigungsse
 
 Machen Sie sich bereit, Ihre Kreativität und Ihren Geschäftssinn zu entfesseln, während Sie sich durch dieses ansprechende und interaktive Lab bewegen. Am Ende dieser Übung werden Sie über ein umfassendes Material verfügen, das Sie auf den Weg zum unternehmerischen Erfolg bringt. Lassen Sie uns die ersten Schritte unternehmen und Ihr Reinigungsunternehmen in die Tat umsetzen!
 
+> **Wichtig**: Diese Übung enthält Prompts, mit denen Sie mit Copilot arbeiten können. Sie sollten diese als *Ausgangspunkt* für Ihre Erkundung von Copilot verwenden. Sie werden aufgefordert, diese Prompts zu ändern und eigene Prompts hinzuzufügen, um einen iterativen Dialog mit Copilot zu führen und die erzeugten Ergebnisse zu verfeinern. Möglicherweise erhalten Sie nicht genau die Ausgabe, die in den Übungsanweisungen beschrieben wird, aber das ist OK – der Punkt besteht darin, mit Copilot zu experimentieren.
+
 Diese Übung dauert ca. **40** Minuten.
 
 > **Hinweis:** Bei dieser Übung wird davon ausgegangen, dass Sie über ein [persönliches Microsoft-Konto](https://signup.live.com) (z. B. ein Konto vom Typ „outlook.com“) verfügen, mit dem Sie auf Ihrem Computer bei [Microsoft Edge](https://www.microsoft.com/edge/download) angemeldet sind. Wenn Sie sowohl ein Arbeitskonto als auch ein persönliches Konto haben, stellen Sie sicher, dass Sie Ihr *persönliches* Konto in den Kontoeinstellungen oben links in Microsoft Edge auswählen.
@@ -29,6 +31,8 @@ Wenn Sie mit der Erkundung von generativer KI beginnen möchten, verwenden Sie M
 1. Verwenden Sie das Symbol **Copilot** auf der Edge-Symbolleiste, um den Copilot-Bereich zu öffnen, wie hier gezeigt:
 
     ![Screenshot: Bereich „Copilot“ in Microsoft Edge](./Media/edge-copilot.png)
+
+    > **Tipp**: Microsoft Copilot wird ständig verbessert. Die Benutzeroberfläche stimmt möglicherweise nicht genau mit dem Bild überein, das angezeigt wird.
 
 1. Geben Sie im Bereich „Copilot“ im Chatfeld unten den folgenden Prompt ein:
 
@@ -100,7 +104,6 @@ Sie haben eine erste Recherche durchgeführt. Nun hilft Copilot Ihnen beim Entwi
 
 Mit der Hilfe von Copilot haben Sie einen Entwurf eines Geschäftsplans für die Idee einer Reinigungsfirma erstellt. Lassen Sie uns nun mit Copilot einige Berechnungen durchführen, um den Businessplan weiter zu verfeinern.
 
-1. Verwenden Sie in OneDrive die Schaltfläche **(+)**, um eine neue **Excel-Arbeitsmappe** hinzuzufügen. Ändern Sie dann den Namen der Arbeitsmappe in `Financial Projections`.
 1. Geben Sie im Copilot-Bereich den folgenden Prompt ein:
 
     ```prompt
@@ -108,7 +111,9 @@ Mit der Hilfe von Copilot haben Sie einen Entwurf eines Geschäftsplans für die
     ```
 
 1. Überprüfen Sie die Antwort, die eine Tabelle mit den prognostizierten Gewinnen für die nächsten fünf Jahre enthalten sollte.
-1. Kopieren Sie die Tabelle in die Zwischenablage (achten Sie darauf, dass Sie nur die Tabelle auswählen). Markieren Sie dann die Zelle A1 in der Excel-Arbeitsmappe und wählen Sie auf der Registerkarte **Startseite** im Menü **Zwischenablage** unter **Spezielles Einfügen** die Option **Nur Werte** aus, damit die Werte aus der Tabelle wie folgt in das Arbeitsblatt eingefügt werden:
+1. Wenn eine Option zum Bearbeiten der Tabelle in Excel angezeigt wird, wählen Sie sie aus, um eine neue Arbeitsmappe mit der Datentabelle zu erstellen. Kehren Sie andernfalls zur OneDrive-Registerkarte zurück, und verwenden Sie die Schaltfläche **(+)**, um eine neue **Excel-Arbeitsmappe** hinzuzufügen. Kopieren Sie dann die Datentabelle aus dem Bereich „Copilot“ in die Arbeitsmappe.
+
+1. Ändern Sie dann den Namen der Arbeitsmappe in `Financial Projections`. Es sollte in etwa wie folgt aussehen:
 
     ![Screenshot einer Excel-Arbeitsmappe mit von Copilot generierten Daten.](./Media/generated-financials.png)
 
@@ -204,28 +209,8 @@ Dank Copilot haben Sie einen Geschäftsplan für Ihr Reinigungsunternehmen erste
 Sie haben einige Begleitmaterialien erstellt, die Ihnen bei den ersten Schritten mit Ihrem Unternehmen helfen sollen. Jetzt ist es an der Zeit, einen Investor zu finden, um eine Startfinanzierung zu erhalten.
 
 1. Verwenden Sie das **App-Starfeld** (&#8759;) am linken Ende der OneDrive-Titelleiste, um **Outlook** zu öffnen.
-1. Wechseln Sie zur Seite **Kalender** und ändern Sie die Ansicht auf **Arbeitswoche**. Wenn Sie noch keine geplanten Ereignisse in Ihrem Kalender haben, können Sie ein paar hinzufügen, damit Copilot einige Informationen zur Verfügung hat.
-1. Geben Sie im Copilot-Bereich den folgenden Prompt ein:
 
-    ```prompt
-    What events do I have scheduled in this calendar?
-    ```
-    
-    Copilot sollte in der Lage sein, den Kalender auf der Webseite zu lesen und Ereignisse in Ihrem Kalender zu erkennen:
-
-    ![Screenshot eines Outlook-Kalenders, in dem Copilot Ereignisse identifiziert.](./Media/calendar-events.png)
-
-1. Versuchen Sie, diese Aufforderung zu nutzen, um Ihre Verfügbarkeit für ein Treffen mit dem Bankmanagement zu prüfen, um eine Finanzierung für Ihr Unternehmen zu erhalten:
-
-    ```prompt
-    What's my availability for a meeting this week?
-    ```
-
-    Copilot sollte eine Zusammenfassung Ihrer Verfügbarkeit auf der Grundlage der Kalenderinformationen auf der Outlook-Webseite erstellen.
-
-    > **Hinweis**: Microsoft Copilot kann die im Browser geöffnete Kalenderseite lesen (und sich möglicherweise Details während der aktuellen Sitzung „merken“), aber er kann nicht direkt auf Ihre Kalenderdaten zugreifen. In einer Unternehmensumgebung kann Ihr Unternehmen Microsoft 365 Copilot verwenden, das auf Ihren Kalender und Ihre E-Mails in Outlook sowie auf Informationen in anderen Unternehmens-Apps wie Microsoft Teams zugreifen *kann*.
-
-1. Wechseln Sie auf die Seite **Mail** und erstellen Sie eine neue E-Mail. Füllen Sie das Feld **An** mit Ihrer eigenen E-Mail-Adresse aus und setzen Sie den **Betreff** auf `Business funding meeting request`.
+1. Erstellen Sie auf die Seite **Mail** eine neue E-Mail. Füllen Sie das Feld **An** mit Ihrer eigenen E-Mail-Adresse aus und setzen Sie den **Betreff** auf `Business funding meeting request`.
 1. Geben Sie im Copilot-Bereich den folgenden Prompt ein:
 
     ```prompt
