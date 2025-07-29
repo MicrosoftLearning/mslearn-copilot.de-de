@@ -144,12 +144,16 @@ Mit der Hilfe von Copilot haben Sie einen Entwurf eines Geschäftsplans für die
     ```prompt
     Create a presentation about a corporate cleaning service named "Contoso Cleaning" in New York City. The presentation should include the benefits of using a professional cleaning business.
     ```
+1. Überprüfen Sie das Präsentationsdesign, und wählen Sie dann **Folien generieren** aus.
 
+    ![Screenshot: PowerPoint-Präsentation, die von Copilot auf der Grundlage eines Word-Dokuments erstellt wurde](./Media/copilot-generate-slides.png)
 1. Copilot generiert Folien in der Präsentation.  Der Vorgang kann mehrere Minuten dauern, und die Ausgabe sollte ungefähr wie folgt aussehen:
 
-    ![Screenshot: PowerPoint-Präsentation, die von Copilot auf der Grundlage eines Word-Dokuments erstellt wurde](./Media/copilot-powerpoint-create-image.png)
+    ![Screenshot: PowerPoint-Präsentation, die von Copilot auf der Grundlage eines Word-Dokuments erstellt wurde](./Media/generate-slides-copilot.png)
 
-1. Wählen Sie die vorletzte Folie der Präsentation aus (vor der abschließenden *Schlussfolgerung*, wenn Copilot eine solche Folie erstellt hat). Wählen Sie dann im Bereich Copilot in der Chatbox das Symbol **Prompts anzeigen** aus und wählen Sie die Eingabeaufforderung **Eine Folie hinzufügen über …** aus, um eine neue Folie mit der Aufforderung `Add a slide about the benefits of an eco-friendly approach to cleaning.` zu erstellen
+1. Wählen Sie **Behalten** aus, und legen Sie unten rechts in der PowerPoint-Präsentation die **Ansicht** auf **Normal** fest. ![Screenshot: Erstellen einer neuen Folie in der PowerPoint-Präsentation.](./Media/normal-presentation-view.png)
+
+1. Wählen Sie die vorletzte Folie der Präsentation aus (vor der abschließenden *Schlussfolgerung*, wenn Copilot eine solche Folie erstellt hat). Geben Sie dann im Copilot-Bereich im Chatfeld den folgenden Prompt zum Erstellen einer neuen Folie ein: `Add a slide about the benefits of an eco-friendly approach to cleaning.`.
 
     ![Screenshot: Erstellen einer neuen Folie in der PowerPoint-Präsentation](./Media/copilot-powerpoint-add-new-slide.png)
 
