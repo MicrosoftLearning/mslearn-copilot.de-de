@@ -78,7 +78,7 @@ Sie haben eine erste Recherche durchgeführt. Nun hilft Copilot Ihnen beim Entwi
     ```
 
 1. Überprüfen Sie die Antwort. Erstellen Sie dann im Bereich Microsoft Word im Menü **Datei** ein neues leeres Dokument. Schließen Sie den Bereich **Designer**, falls er geöffnet ist, und ändern Sie den Namen des neuen Dokuments von *Dokument* in `Business Plan`.
-1. Kopieren Sie den Geschäftsplan, der im Bereich Copilot erstellt wurde, und fügen Sie ihn in das Geschäftsplan-Dokument ein:
+1. Kopieren Sie den Geschäftsplan, der im Copilot-Bereich erstellt wurde, und fügen Sie ihn in das Geschäftsplandokument ein. Entfernen Sie dabei unnötigen Copilot-Inhalt:
 
     ![Screenshot: Word-Dokument mit einem von Copilot generierten Geschäftsplan](./Media/generated-content.png)
 
@@ -113,7 +113,7 @@ Mit der Hilfe von Copilot haben Sie einen Entwurf eines Geschäftsplans für die
 1. Überprüfen Sie die Antwort, die eine Tabelle mit den prognostizierten Gewinnen für die nächsten fünf Jahre enthalten sollte.
 1. Wenn eine Option zum Bearbeiten der Tabelle in Excel angezeigt wird, wählen Sie sie aus, um eine neue Arbeitsmappe mit der Datentabelle zu erstellen. Kehren Sie andernfalls zur OneDrive-Registerkarte zurück, und verwenden Sie die Schaltfläche **(+)**, um eine neue **Excel-Arbeitsmappe** hinzuzufügen. Kopieren Sie dann die Datentabelle aus dem Bereich „Copilot“ in die Arbeitsmappe.
 
-1. Ändern Sie dann den Namen der Arbeitsmappe in `Financial Projections`. Es sollte in etwa wie folgt aussehen:
+1. Ändern Sie dann den Namen der Arbeitsmappe in `Financial projections`. Es sollte in etwa wie folgt aussehen:
 
     ![Screenshot einer Excel-Arbeitsmappe mit von Copilot generierten Daten.](./Media/generated-financials.png)
 
@@ -147,6 +147,8 @@ Dank Copilot haben Sie einen Geschäftsplan für Ihr Reinigungsunternehmen erste
 
 1. Geben Sie auf der Titelfolie für die Präsentation den Namen Ihrer Reinigungsfirma als Titel und `Investor Opportunity` als Untertitel ein.
 1. Fügen Sie eine neue Folie ein und verwenden Sie das Layout **Zwei Inhalte** (das einen Titel und zwei Platzhalter für den Inhalt enthält).
+    ![Screenshot: Neue Folie mit zwei Inhalten](./Media/two-content-slide.png)
+
 1. Ändern Sie den Folientitel in `Benefits of Hiring a Commercial Cleaner`.
 1. Geben Sie im Copilot-Bereich den folgenden Prompt ein:
 
